@@ -1,3 +1,5 @@
+@import 'src/styles/utils.module.sass'
+
 .block
   margin-top: 80px
   padding-bottom: 80px
@@ -16,7 +18,4 @@
     position: absolute
 
 .text
-  padding: 0 16px 16px
-
-  &--head
-    font-weight: 600
+  @include text

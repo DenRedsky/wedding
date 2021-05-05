@@ -1,3 +1,5 @@
+@import 'src/styles/utils.module.sass'
+
 .block
   margin-top: 8px
   text-align: center
@@ -11,10 +13,7 @@
     display: block
 
 .text
-  padding: 0 16px 16px
-
-  &--head
-    font-weight: 600
+  @include text
 
   &:last-child
     padding-bottom: 0
