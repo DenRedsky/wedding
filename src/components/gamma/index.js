@@ -7,7 +7,7 @@ const cn = classnames.bind(styles);
 export default function Gamma() {
   return (
     <div className={ styles.block }>
-      <div className={ styles.text }>
+      <div id="gamma" className={ cn('text', 'text--head') }>
         Гамма
       </div>
       <div className={ styles.text }>

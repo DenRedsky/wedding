@@ -1,9 +1,22 @@
 .block
-  margin-top: 16px
+  margin-top: 8px
   text-align: center
+
+  &:before
+    content: ''
+    background-image: url('./flowers.png')
+    background-size: 80px
+    background-repeat: no-repeat
+    height: 80px
+    display: block
 
 .text
   padding: 0 16px 16px
+  line-height: 24px
+
+  &--head
+    font-size: 18px
+    font-weight: 600
 
   &:last-child
     padding-bottom: 0

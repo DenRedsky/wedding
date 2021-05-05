@@ -1,9 +1,13 @@
+import classnames from 'classnames/bind';
+
 import styles from './styles.module.sass';
+
+const cn = classnames.bind(styles);
 
 export default function Flowers() {
   return (
     <div className={ styles.block }>
-      <div className={ styles.text }>
+      <div className={ cn('text', 'text--head') }>
         Цветы
       </div>
       <div className={ styles.text }>

@@ -1,6 +1,24 @@
 .block
-  margin-top: 16px
+  margin-top: 80px
+  padding-bottom: 80px
   text-align: center
+  position: relative
+
+  &:after
+    content: ''
+    background-image: url('./flowers.png')
+    background-size: 80px
+    background-repeat: no-repeat
+    height: 100px
+    width: 80px
+    right: 0
+    bottom: 0
+    position: absolute
 
 .text
   padding: 0 16px 16px
+  line-height: 24px
+
+  &--head
+    font-size: 18px
+    font-weight: 600
