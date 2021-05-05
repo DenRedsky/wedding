@@ -15,9 +15,8 @@ export default function Header() {
         <Image
           src="/couple.jpg"
           alt="Picture of the couple"
-          layout="responsive"
-          width={ 1280 }
-          height={ 853 }
+          layout="fill"
+          objectFit="cover"
         />
       </div>
     </div>
