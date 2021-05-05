@@ -10,7 +10,7 @@ export default function Header() {
       </h1>
       <div className={ styles.couple }>
         <h1 className={ styles.couple__text }>
-          Мы женимся!
+          МАЙ | 27 | 2021
         </h1>
         <Image
           src="/couple.jpg"

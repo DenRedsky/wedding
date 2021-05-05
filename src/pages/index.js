@@ -13,9 +13,10 @@ export default function Main() {
       <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@400;500&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Amatic+SC:wght@700&display=swap"
           rel="stylesheet"
         />
+        <title>Wedding</title>
       </Head>
       <main>
         <Header />
