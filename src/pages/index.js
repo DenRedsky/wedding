@@ -1,11 +1,11 @@
-// import styles from './index.module.sass';
-import Image from 'next/image';
 import Head from 'next/head';
 import Header from 'src/components/header';
 import DateAndPlace from 'src/components/dateAndPlace';
 import DressCode from 'src/components/dressCode';
 import Flowers from 'src/components/flowers';
 import Hashtag from 'src/components/hashtag';
+
+import styles from './styles.module.sass';
 
 export default function Main() {
   return (
@@ -20,10 +20,12 @@ export default function Main() {
       </Head>
       <main>
         <Header />
-        <DateAndPlace />
-        <DressCode />
-        <Flowers />
-        <Hashtag />
+        <div className={ styles.content }>
+          <DateAndPlace />
+          <DressCode />
+          <Flowers />
+          <Hashtag />
+        </div>
       </main>
     </>
   );
