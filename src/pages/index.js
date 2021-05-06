@@ -16,7 +16,7 @@ export default function Main() {
           href="https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@400;500&family=Amatic+SC:wght@700&display=swap"
           rel="stylesheet"
         />
-        <title>Wedding</title>
+        <title>Wedding!</title>
       </Head>
       <main>
         <Header />
