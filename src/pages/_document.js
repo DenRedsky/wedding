@@ -26,7 +26,27 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Свадебный сайт Ирины и Дениса, свадьба пройдет 27 мая 2021 года в бутик-отеле Сенешаль"
+            content="Свадьба Ирины и Дениса, событие пройдет 27 мая 2021 года в бутик-отеле Сенешаль"
+          />
+          <meta
+            property="og:title"
+            content="Свадьба Дениса и Ирины"
+          />
+          <meta
+            property="og:description"
+            content="Свадьба Ирины и Дениса, событие пройдет 27 мая 2021 года в бутик-отеле Сенешаль"
+          />
+          <meta
+            property="og:image"
+            content="https://denredsky.github.io/wedding/couple.jpg"
+          />
+          <meta
+            property="og:locale"
+            content="ru_RU"
+          />
+          <meta
+            property="og:type"
+            content="website"
           />
         </Head>
         <body>
