@@ -1,5 +1,4 @@
 import classnames from 'classnames/bind';
-import Image from 'next/image';
 
 import styles from './styles.module.sass';
 
@@ -8,11 +7,17 @@ const cn = classnames.bind(styles);
 export default function DateAndPlace() {
   return (
     <div className={ styles.block }>
-      <Image
-        src="/flowers.png"
-        width={ 100 }
-        height={ 100 }
-      />
+      <picture>
+        <source
+          srcSet="/flowers.webp"
+          type="image/webp"
+        />
+        <img
+          className={ styles.flowers }
+          src="/flowers.png"
+          alt="flowers"
+        />
+      </picture>
       <div className={ cn('text', 'text--head') }>
         Дорогие Родные и Близкие!
       </div>
