@@ -1,5 +1,7 @@
 import styles from './styles.module.sass';
 
+const imagePath = process.env.NODE_ENV !== 'development' ? '/wedding' : '';
+
 export default function Header() {
   return (
     <div>
@@ -12,12 +14,12 @@ export default function Header() {
         </h1>
         <picture>
           <source
-            srcset="/couple.webp"
+            srcSet={ `${ imagePath }/couple.webp` }
             type="image/webp"
           />
           <img
             className={ styles.couple__image }
-            src="/couple.jpg"
+            src={ `${ imagePath }/couple.jpg` }
             alt="Photo of the couple"
           />
         </picture>

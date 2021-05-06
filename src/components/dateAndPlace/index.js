@@ -4,17 +4,19 @@ import styles from './styles.module.sass';
 
 const cn = classnames.bind(styles);
 
+const imagePath = process.env.NODE_ENV !== 'development' ? '/wedding' : '';
+
 export default function DateAndPlace() {
   return (
     <div className={ styles.block }>
       <picture>
         <source
-          srcSet="/flowers.webp"
+          srcSet={`${ imagePath  }/flowers.webp`}
           type="image/webp"
         />
         <img
           className={ styles.flowers }
-          src="/flowers.png"
+          src={ `${ imagePath  }/flowers.png` }
           alt="flowers"
         />
       </picture>
