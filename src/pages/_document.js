@@ -1,10 +1,16 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
+const imagePath = process.env.NODE_ENV !== 'development' ? '/wedding' : '';
+
 class MyDocument extends Document {
   render() {
     return (
       <Html lang="ru">
         <Head>
+          <link
+            rel="icon"
+            href={ `${ imagePath  }/favicon.png` }
+          />
           <link
             rel="preload"
             href="https://denredsky.github.io/wedding/couple.webp"
