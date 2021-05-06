@@ -32,7 +32,9 @@ export default function DateAndPlace() {
         <a
           className={ cn('text--head') }
           target="_blank"
-          href="https://seneshal.com">
+          href="https://seneshal.com"
+          rel="noopener noreferrer"
+        >
           &laquo;Сенешаль&raquo;
         </a>
       </div>

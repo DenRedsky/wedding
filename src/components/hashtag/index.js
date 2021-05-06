@@ -5,7 +5,11 @@ export default function Hashtag() {
 
   return (
     <div className={ styles.block }>
-      <a target="_blank" href={ `https://www.instagram.com/explore/tags/${ link }` }>
+      <a
+        target="_blank"
+        href={ `https://www.instagram.com/explore/tags/${ link }` }
+        rel="noopener noreferrer"
+      >
         #{ link }
       </a>
 
