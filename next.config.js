@@ -1,6 +1,9 @@
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = {
   distDir: 'build',
-  assetPrefix:  process.env.NODE_ENV === 'production' ? 'https://denredsky.github.io/wedding' : '',
+  assetPrefix:  isProduction? 'https://denredsky.github.io/wedding' : '',
+  basePath: isProduction ? 'https://denredsky.github.io/wedding' : '',
   future: {
     webpack5: true
   }
