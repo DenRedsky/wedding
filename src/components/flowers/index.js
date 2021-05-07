@@ -11,7 +11,7 @@ export default function Flowers() {
         Цветы
       </div>
       <div className={ styles.text }>
-        Мы&nbsp;знаем что на&nbsp;свадьбах принято дарить цветы.
+        Мы&nbsp;знаем, что на&nbsp;свадьбах принято дарить цветы.
         Пожалуйста, не&nbsp;дарите нам букеты, так как мы&nbsp;не&nbsp;сможем насладиться их&nbsp;красотой
       </div>
     </div>

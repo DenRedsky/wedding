@@ -39,7 +39,7 @@ class MyDocument extends Document {
           />
           <meta
             name="description"
-            content="Свадьба Дениса и Ирины, событие пройдет 27 мая 2021 года в бутик-отеле Сенешаль"
+            content="Приглашение на свадьбу Дениса и Ирины, событие пройдет 27 мая 2021 года в бутик-отеле Сенешаль"
           />
           <meta
             property="og:title"
@@ -47,7 +47,7 @@ class MyDocument extends Document {
           />
           <meta
             property="og:description"
-            content="Свадьба Дениса и Ирины, событие пройдет 27 мая 2021 года в бутик-отеле Сенешаль"
+            content="Приглашение на свадьбу Дениса и Ирины, событие пройдет 27 мая 2021 года в бутик-отеле Сенешаль"
           />
           <meta
             property="og:image"

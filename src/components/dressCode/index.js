@@ -17,7 +17,7 @@ export default function DressCode() {
         <span className={ cn('text--head') }>Дамы:</span> коктейльное платье
       </div>
       <div className={ styles.text }>
-        Нам будет приятно, если&nbsp;дамы поддержат цветовую гамму нашего праздника при выборе наряда
+        Нам будет приятно, если дамы поддержат цветовую гамму нашего праздника и&nbsp;воздержатся от&nbsp;белого при выборе наряда
       </div>
       <div className={ styles.cubes }>
         <div className={ cn('cube', 'cube--1') } />
