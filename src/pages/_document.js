@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-const imagePath = process.env.NODE_ENV !== 'development' ? '/wedding' : '';
+const publicPath = process.env.NODE_ENV !== 'development' ? '/wedding' : '';
 
 class MyDocument extends Document {
   render() {
@@ -9,7 +9,16 @@ class MyDocument extends Document {
         <Head>
           <link
             rel="icon"
-            href={ `${ imagePath  }/favicon.png` }
+            href={ `${ publicPath  }/favicon.png` }
+          />
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href={ `${ publicPath }/apple-icon.png` }
+          />
+          <link
+            rel="manifest"
+            href={`${ publicPath }/manifest.json` }
           />
           <link
             rel="preload"
