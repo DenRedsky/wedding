@@ -1,0 +1,16 @@
+{
+  "name": "Свадьба Дениса и Ирины",
+  "short_name": "Свадьба",
+  "display": "standalone",
+  "theme_color": "#fbf2e5",
+  "background_color": "#fbf2e5",
+  "start_url": "/wedding",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./wedding/maskable_icon.png",
+      "sizes": "300x300",
+      "purpose": "any maskable"
+    }
+  ]
+}
