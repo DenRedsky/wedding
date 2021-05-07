@@ -20,6 +20,10 @@ class MyDocument extends Document {
             rel="manifest"
             href={`${ publicPath }/manifest.json` }
           />
+          <meta
+            name="theme-color"
+            content="#fbf2e5"
+          />
           <link
             rel="preload"
             href="https://denredsky.github.io/wedding/couple.webp"
