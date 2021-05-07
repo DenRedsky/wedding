@@ -7,8 +7,8 @@ module.exports = withPWA({
   future: {
     webpack5: true
   },
+  basePath: isProduction ? '/wedding' : '',
   pwa: {
-    dest: 'public',
-    scope: isProduction ? '/wedding' : ''
+    dest: 'public'
   }
 });
