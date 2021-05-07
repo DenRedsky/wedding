@@ -8,6 +8,7 @@ module.exports = withPWA({
     webpack5: true
   },
   pwa: {
-    dest: 'public'
+    dest: 'public',
+    scope: isProduction ? '/wedding' : ''
   }
 });
